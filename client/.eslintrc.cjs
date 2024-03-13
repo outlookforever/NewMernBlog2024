@@ -18,6 +18,7 @@ module.exports = {
 	plugins: ['react-refresh'],
 	rules: {
 		'react/jsx-no-target-blank': 'off',
+		'eslint-disable-next-line no-unused-vars': 'true',
 		'react-refresh/only-export-components': [
 			'warn',
 			{ allowConstantExport: true }
