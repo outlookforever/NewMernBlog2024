@@ -1,3 +1,4 @@
+import { Header } from 'components/Header'
 import {
 	About,
 	Dashboard,
@@ -7,11 +8,12 @@ import {
 	SignIn,
 	SignUp
 } from 'pages'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 export default function App() {
 	return (
 		<BrowserRouter>
+			<Header />
 			<Routes>
 				<Route
 					path='/'
